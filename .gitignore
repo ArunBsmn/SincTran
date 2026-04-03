@@ -1,0 +1,13 @@
+# Python environment directories
+*env*/
+.env/
+.pyenv/
+.venv/
+
+# PyCache files and directories
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
