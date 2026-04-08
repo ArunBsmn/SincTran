@@ -41,6 +41,7 @@ SINCTRAN/
 │   ├── int_bci.py           # Interpretation pipeline — BCI Competition Track 3
 │   └── int_driver.py        # Entry point for interpretation runs
 │
+├── CITATION.cff
 ├── requirements.txt
 └── README.md
 ```
