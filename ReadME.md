@@ -132,3 +132,19 @@ Driver scripts expose a `RUN_CFG` dict for selecting dataset, task, subjects, fo
 `core_utils.set_all_seeds` fixes seeds for Python, NumPy, and PyTorch (including `cudnn.deterministic`). All pipelines call this before data loading. The default seed across all experiments is `37`.
 
 Normalisation and ZCA whitening statistics are always fitted on the training split only and applied to validation and test splits, with statistics recomputed per fold.
+
+---
+
+## Citation
+
+If you use SincTran in your research, please cite:
+
+```bibtex
+@misc{sinctran,
+  author       = {Balasubramanian, Arun and Peddi, Santhoshkumar and Samanta, Debasis},
+  title        = {SincTran: An End-to-End Transformer Pipeline for Imagined Speech EEG Classification},
+  year         = {2025},
+  howpublished = {\url{https://github.com/ArunBsmn/SincTran}},
+  note         = {GitHub repository}
+}
+```
