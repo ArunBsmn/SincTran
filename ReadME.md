@@ -138,11 +138,11 @@ Normalisation and ZCA whitening statistics are always fitted on the training spl
 If you use SincTran in your research, please cite:
 
 ```bibtex
-@misc{sinctran,
-  author       = {Balasubramanian, Arun and Peddi, Santhoshkumar and Samanta, Debasis},
-  title        = {SincTran: An End-to-End Transformer Pipeline for Imagined Speech EEG Classification},
-  year         = {2025},
-  howpublished = {\url{https://github.com/ArunBsmn/SincTran}},
+@misc{sinctran2026,
+  author       = {Arun Balasubramanian and Santhoshkumar Peddi and Debasis Samanta},
+  title        = {SincTran: An End-to-End Transformer Pipeline for Imagined Speech EEG Classification (Code Repository)},
+  year         = {2026},
+  url          = {https://github.com/ArunBsmn/SincTran},
   note         = {GitHub repository}
 }
 ```
