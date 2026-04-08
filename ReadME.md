@@ -1,11 +1,5 @@
 # SincTran
 
-**An end-to-end transformer pipeline for imagined speech electroencephalogram classification.**
-
-SincTran combines learnable sinc bandpass filter banks (one per physiological EEG band) with a depthwise-separable CNN spatial/temporal encoder and a Transformer with a CLS token. Band contributions are weighted by a learned attention mechanism before spatial mixing, and the Transformer output at the CLS position is passed to an MLP classification head.
-
----
-
 ## Table of Contents
 
 - [Repository Structure](#repository-structure)
@@ -14,6 +8,11 @@ SincTran combines learnable sinc bandpass filter banks (one per physiological EE
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Reproducibility](#reproducibility)
+- [Citation](#citation)
+
+**An end-to-end transformer pipeline for imagined speech electroencephalogram classification.**
+
+SincTran combines learnable sinc bandpass filter banks (one per physiological EEG band) with a depthwise-separable CNN spatial/temporal encoder and a Transformer with a CLS token. Band contributions are weighted by a learned attention mechanism before spatial mixing, and the Transformer output at the CLS position is passed to an MLP classification head.
 
 ---
 
