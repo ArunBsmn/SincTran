@@ -141,8 +141,9 @@ If you use SincTran in your research, please cite:
 ```bibtex
 @misc{sinctran2026,
   author       = {Arun Balasubramanian and Santhoshkumar Peddi and Debasis Samanta},
-  title        = {SincTran: An End-to-End Transformer Pipeline for Imagined Speech EEG Classification (Code Repository)},
+  title        = {SincTran: An End-to-End Transformer Pipeline for Imagined Speech EEG Classification},
   year         = {2026},
+  doi          = {10.2139/ssrn.6641648},
   url          = {https://github.com/ArunBsmn/SincTran},
   note         = {GitHub repository}
 }
